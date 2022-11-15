@@ -22,3 +22,11 @@
 
 // Aula 02 
 
+function IncrementarJuros(valor, percentualJuros){
+    const valorDeAcrescimo = (percentualJuros / 100) * valor
+    return valor + valorDeAcrescimo;
+}
+
+console.log(IncrementarJuros(100, 10));
+
+console.log(IncrementarJuros(100,15));
